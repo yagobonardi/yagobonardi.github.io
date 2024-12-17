@@ -1,0 +1,12 @@
+.circular-imagem {
+    width: 150px; /* Ajuste o tamanho desejado */
+    height: 150px;
+    border-radius: 50%; /* Tornar a imagem circular */
+    overflow: hidden;
+    border: 2px solid #ddd; /* Opcional: Adicionar borda se necessário */
+}
+
+.circular-imagem img {
+    width: 100%; /* A imagem ocupa o espaço disponível */
+    height: auto;
+}
